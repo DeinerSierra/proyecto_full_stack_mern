@@ -1,0 +1,22 @@
+.hero {
+    min-height: 70vh;
+    display: grid;
+    place-items: center;
+    color:white;
+    margin-top:30px;
+    z-index: 1;
+    width: 100%;
+    
+}
+.hero-container {
+    width: 90vw;
+    max-width: 1120px;
+}
+.hero-container img{
+
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    
+    
+}

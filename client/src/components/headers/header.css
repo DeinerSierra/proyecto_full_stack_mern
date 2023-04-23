@@ -1,0 +1,52 @@
+header{
+    min-height: 60px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40 0 0 0;
+    margin: 0 auto;
+}
+.logo img {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+header a{
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 700;
+    margin: 0;
+}
+header ul li{
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 20px;
+}
+header ul li:hover{
+    opacity: 1;
+    
+}
+.menu{
+    display: none;
+}
+.cart-icon{
+    position: relative;
+    margin-right: 20px;
+}
+.cart-icon span{
+    background: crimson;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 10px;
+}
+li span {
+    display: inline-block;
+    margin: 0 25px;
+}
